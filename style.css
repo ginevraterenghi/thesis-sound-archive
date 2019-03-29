@@ -18,7 +18,7 @@ main {
 }
 
 .footer_img {
-	width: 120px;
+	width: 30px;
 	height: auto;
 }
 
@@ -470,7 +470,7 @@ dd {
 
 .esempi {
 	font-family: 'ciu-italic';
-	color: black
+	color: black;
 }
 
 .esempi:hover {
@@ -544,7 +544,7 @@ dd {
 
 .infoF {
 	margin-left: 1vh;
-	margin-top: 1.5vh;
+	margin-top: 0.7vh;
 	margin-bottom: 2vh;
 	font-family: 'Chivo';
 	font-weight: 200;
@@ -754,7 +754,7 @@ dd {
 		--video-width: 470px;
 	}
 	.footer_img {
-		width: 200px;
+		width: 50px;
 		height: auto;
 	}
 	.name {
