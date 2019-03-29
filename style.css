@@ -32,8 +32,10 @@ main {
 	padding-right: 30vh;
 }
 
-
-
+/*! evitare contorno blu tasto play */
+* {
+	outline: none;
+}
 
 
 /*! ------------- sezioni -------------- */
@@ -76,7 +78,7 @@ main {
 	font-family: 'Chivo';
 	font-size: 0.8rem;
 	font-weight: 300;
-	color: #F99B1C;
+	color: #f26122;
 	display: inline;
 }
 
@@ -119,7 +121,7 @@ main {
 
 .navbar-toggler-icon {
 	/*	background-image: './assets/hamburger.png';*/
-	border: 1px solid #F99B1C;
+	border: 1px solid #f26122;
 }
 
 
@@ -131,7 +133,7 @@ main {
 .navbar a {
 	/*	float: left;*/
 	display: block;
-	color: #F99B1C;
+	color: #f26122;
 	/*	text-align: center;*/
 	padding: 2vh;
 	text-decoration: none;
@@ -175,7 +177,7 @@ figcaption {
 /* Change background on mouse-over */
 
 .navbar a:hover {
-	color: #F99B1C;
+	color: #f26122;
 	text-decoration: none;
 	font-family: 'ciu-italic';
 	font-weight: 700;
@@ -215,7 +217,7 @@ figcaption {
 .name {
 	margin-top: 0vh;
 	font-family: 'ciu-bold';
-	color: black;
+	color: #f26122;
 	text-align: left;
 	font-size: 0rem;
 }
@@ -223,7 +225,7 @@ figcaption {
 .name2 {
 	margin-top: 0vh;
 	font-family: 'ciu-bold';
-	color: black;
+	color: #f26122;
 	text-align: left;
 	font-size: 1.1rem;
 }
@@ -254,7 +256,7 @@ figcaption {
 	margin-top: 2.8vh;
 	font-family: 'ciu-regular';
 	font-weight: 300;
-	color: #7A51A0;
+	color: #68246c;
 	font-size: 0.8rem;
 }
 
@@ -270,13 +272,13 @@ figcaption {
 	margin-top: 5vh;
 	font-family: 'ciu-regular';
 	font-weight: 300;
-	color: #7A51A0;
+	color: #68246c;
 	font-size: 0.8rem;
 }
 
 
 .impo {
-	color: #F99B1C;
+	color: #f26122;
 	font-weight: 700;
 }
 
