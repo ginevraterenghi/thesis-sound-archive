@@ -1,0 +1,854 @@
+html {
+	--video-width: 300px;
+}
+
+header {
+	margin-left: 1vh;
+	padding-right: 1vh;
+}
+
+.container {
+	padding-left: 5vh;
+	padding-right: 5vh;
+}
+
+main {
+	margin-top: 100px;
+	margin-bottom: 5vh;
+}
+
+.footer_img {
+	width: 120px;
+	height: auto;
+}
+
+.appearance {
+	padding-left: 50px;
+}
+
+
+
+#red_appearance_nav {
+	padding-right: 30vh;
+}
+
+
+
+
+
+/*! ------------- sezioni -------------- */
+
+/*
+.sectionTop {
+  background:gray;
+  margin-top:30px;
+  padding-left:0px;
+  padding-right:0px;
+}
+*/
+
+.intro {
+	font-family: 'helvetica-light';
+	font-size: 0.9rem;
+	font-weight: 300;
+	padding-top: 1vh;
+	/*	padding-bottom: 2vh;*/
+	text-align: left;
+	line-height: 1.7rem;
+}
+
+.speciale {
+	font-family: 'Chivo';
+	font-size: 0.9rem;
+	font-weight: 700;
+	display: inline;
+}
+
+.sub {
+	font-family: 'Chivo';
+	font-size: 0.8rem;
+	font-weight: 300;
+	display: inline;
+	color: lightgray;
+}
+
+.specific {
+	font-family: 'Chivo';
+	font-size: 0.8rem;
+	font-weight: 300;
+	color: #F99B1C;
+	display: inline;
+}
+
+
+
+#datasonification {
+	margin-top: 5vh;
+}
+
+#project {
+	margin-top: 0vh;
+}
+
+#keysound {
+	/*		background: purple;*/
+}
+
+
+/*! ------------------------------------------ NAVBAR ------------------------------------------ */
+
+/* The navigation bar */
+
+.navbar {
+	background-color: white;
+	padding-left: 0px;
+}
+
+
+.navbar-toggler {
+	/*	background-image: './assets/hamburger.png';*/
+	background-color: transparent;
+	border: transparent;
+}
+
+.button {
+	background-color: transparent;
+	border: transparent;
+}
+
+
+.navbar-toggler-icon {
+	/*	background-image: './assets/hamburger.png';*/
+	border: 1px solid #F99B1C;
+}
+
+
+
+
+
+/* Links inside the navbar */
+
+.navbar a {
+	/*	float: left;*/
+	display: block;
+	color: #F99B1C;
+	/*	text-align: center;*/
+	padding: 2vh;
+	text-decoration: none;
+}
+
+.slim {
+	font-family: 'ciu-regular';
+}
+
+.ciccio {
+	font-family: 'ciu-italic';
+}
+
+
+
+
+figcaption {
+	/*    padding-top: 2vh;*/
+	padding-bottom: 0.7vh;
+}
+
+
+
+
+
+/*
+
+
+.nav a {
+	float: left;
+	display: block;
+	color: red;
+	text-align: center;
+	padding: 2vh;
+	text-decoration: none;
+	font-family: 'Chivo';
+	font-weight: 300;
+}
+*/
+
+/* Change background on mouse-over */
+
+.navbar a:hover {
+	color: #F99B1C;
+	text-decoration: none;
+	font-family: 'ciu-italic';
+	font-weight: 700;
+}
+
+.capitolo {
+	color: black;
+	text-decoration: none;
+	font-family: 'ciu-regular';
+	font-size: 0.8rem;
+}
+
+/* Main content */
+
+/*
+.main {
+  margin-top: 30px;  Add a top margin to avoid content overlay 
+}
+*/
+
+/*! ------------------------------------------ video --------------------------------------------- */
+
+.video {
+	width: var(--video-width);
+	height: calc(var(--video-width) / 16 * 9);
+}
+
+
+
+/*! ------------------------------------------ HEADER-text --------------------------------------------- */
+
+@font-face {
+	font-family: ariah;
+	src: url(./assets/font/ariah.ttf);
+}
+
+.name {
+	margin-top: 0vh;
+	font-family: 'ciu-bold';
+	color: black;
+	text-align: left;
+	font-size: 0rem;
+}
+
+.name2 {
+	margin-top: 0vh;
+	font-family: 'ciu-bold';
+	color: black;
+	text-align: left;
+	font-size: 1.1rem;
+}
+
+@font-face {
+	font-family: ciu-regular;
+	src: url(./assets/font/ciu-regular.ttf);
+}
+
+@font-face {
+	font-family: ciu-italic;
+	src: url(./assets/font/ciu-italic.ttf);
+}
+
+@font-face {
+	font-family: ciu-bold;
+	src: url(./assets/font/ciu-bold.ttf);
+}
+
+@font-face {
+	font-family: helvetica-light;
+	src: url(./assets/font/helvetica-light.ttf);
+}
+
+/*! ------------------------------------------  rules.html ------------------------------------------ */
+
+.domanda {
+	margin-top: 2.8vh;
+	font-family: 'ciu-regular';
+	font-weight: 300;
+	color: #7A51A0;
+	font-size: 0.8rem;
+}
+
+.paper {
+	margin-top: 2vh;
+	font-family: 'ciu-regular';
+	font-weight: 300;
+	color: lightgray;
+	font-size: 1rem;
+}
+
+.domandap {
+	margin-top: 5vh;
+	font-family: 'ciu-regular';
+	font-weight: 300;
+	color: #7A51A0;
+	font-size: 0.8rem;
+}
+
+
+.impo {
+	color: #F99B1C;
+	font-weight: 700;
+}
+
+.importante {
+	color: black;
+	font-weight: 700;
+}
+
+.red {
+	font-family: 'helvetica-light';
+	font-size: 0.8rem;
+	margin-top: 2vh;
+	color: black;
+	font-weight: 200;
+}
+
+.risposta {
+	/*	background: pink;*/
+	margin-left: 3vh;
+	margin-right: 3vh;
+	margin-top: 1vh;
+	font-family: 'helvetica-light';
+	font-weight: 400;
+	font-size: 0.7rem;
+	text-align: justify;
+	line-height: 1.3rem;
+}
+
+.rispostain {
+	/*	background: pink;*/
+	margin-left: 3vh;
+	margin-right: 3vh;
+	margin-top: 1vh;
+	font-family: 'helvetica-light';
+	font-weight: 400;
+	font-size: 0.7rem;
+	text-align: justify;
+	line-height: 1.3rem;
+}
+
+.par1 {
+	margin-left: 6vh;
+	margin-right: 3vh;
+	margin-top: 2vh;
+	font-family: 'helvetica-light';
+	font-weight: 400;
+	font-size: 0.6rem;
+}
+
+.par2 {
+	margin-left: 8vh;
+	margin-right: 3vh;
+	margin-top: 0.6vh;
+	font-family: 'helvetica-light';
+	font-weight: 200;
+	font-size: 0.6rem;
+}
+
+.par3 {
+	margin-left: 8vh;
+	margin-right: 3vh;
+	margin-top: 0.6vh;
+	margin-bottom: 1.2vh;
+	font-family: 'helvetica-light';
+	font-weight: 200;
+	font-size: 0.6rem;
+}
+
+
+.doc {
+	/*	background: pink;*/
+	margin-left: 3vh;
+	margin-right: 3vh;
+	margin-top: 1vh;
+	font-family: 'ciu-regular';
+	font-weight: 100;
+	font-size: 0.5rem;
+	text-align: justify;
+	line-height: 1rem;
+}
+
+.doc2 {
+	/*	background: pink;*/
+	margin-left: 0vh;
+	margin-right: 0vh;
+	margin-top: 0.2vh;
+	font-family: 'ciu-regular';
+	font-weight: 100;
+	font-size: 0.5rem;
+	text-align: justify;
+	line-height: 1rem;
+}
+
+.scenario a {
+	/*	background: pink;*/
+	margin-left: 1vh;
+	margin-top: 1vh;
+	font-family: 'ciu-light';
+	font-style: italic;
+	font-weight: 300;
+	font-size: 0.9rem;
+	color: black;
+}
+
+.scenario a:hover {
+	font-family: 'ciu-italic';
+	font-style: normal;
+	color: black;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+
+
+.rispvideo {
+	background: transparent;
+	margin-left: 3vh;
+	margin-top: 3vh;
+	/*	height:100%;*/
+}
+
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+li {
+	font-weight: 500;
+	list-style: none;
+	margin-top: 2vh;
+}
+
+dd {
+	font-weight: 100;
+	list-style: none;
+	text-indent: 2em;
+	margin-bottom: 0px;
+}
+
+
+.ref {
+	font-family: 'helvetica-light';
+	font-weight: 100;
+	font-style: italic;
+	color: black;
+}
+
+.x {
+	font-family: 'ciu-regular';
+	font-weight: 100;
+	font-style: italic;
+	color: black;
+}
+
+.x:hover {
+	font-style: normal;
+	color: black;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.parti {
+	font-family: 'ciu-regular';
+	font-weight: 600;
+	color: black;
+	display: inline;
+}
+
+.rispostaDown {
+	margin-left: 3vh;
+	margin-right: 3vh;
+	margin-top: 2vh;
+	font-family: 'helvetica-light';
+	font-weight: 400;
+	font-size: 0.7rem;
+	text-align: justify;
+	line-height: 1.3rem;
+}
+
+
+.esempi {
+	font-family: 'ciu-italic';
+	color: black
+}
+
+.esempi:hover {
+	font-family: 'ciu-bold';
+	color: black;
+	text-decoration: none;
+}
+
+.esempiRed {
+	font-family: 'ciu-italic';
+	color: red
+}
+
+.esempiRed:hover {
+	font-style: normal;
+	color: red;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.esempi:visited {
+	text-decoration: line-through;
+}
+
+
+
+#fondo {
+	background: #FED098;
+}
+
+/*
+#unoa {
+	padding-top: 10vh;
+}
+*/
+
+#duea {
+/*	padding-top: 10vh;*/
+}
+
+#unob {
+/*	padding-top: 10vh;*/
+}
+
+#dueb {
+/*
+	padding-top: 10vh;
+	padding-top: 10vh;
+*/
+}
+
+
+
+.info {
+	margin-left: 1vh;
+	margin-top: 2vh;
+	margin-bottom: 0.2vh;
+	font-family: 'ciu-regular';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.info0 {
+	margin-left: 1vh;
+	margin-top: 0.2vh;
+	margin-bottom: 2.5vh;
+	font-family: 'helvetica-light';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.infoF {
+	margin-left: 1vh;
+	margin-top: 1.5vh;
+	margin-bottom: 2vh;
+	font-family: 'Chivo';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.spaziologo {
+	margin-left: 1vh;
+	margin-top: 3vh;
+	margin-bottom: 2vh;
+	font-family: 'Chivo';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.info1 {
+	margin-left: 1vh;
+	margin-top: 1vh;
+	margin-bottom: 0.2vh;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.info2 {
+	margin-left: 1vh;
+	margin-top: 0.2vh;
+	margin-bottom: 0.2vh;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.info3 {
+	margin-left: 1vh;
+	margin-top: 0.2vh;
+	margin-bottom: 2vh;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.infoP {
+	margin-left: 1vh;
+	margin-top: 0.2vh;
+	margin-bottom: 0.2vh;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.infoP2 {
+	margin-left: 1vh;
+	margin-top: 0.2vh;
+	margin-bottom: 2vh;
+	font-family: 'Montserrat';
+	font-weight: 200;
+	font-size: 0.4rem;
+}
+
+.slide {
+	width: 330px;
+}
+
+.mappa {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	width: 300px;
+}
+
+.district {
+	margin-left: 5vh;
+	margin-top: 1vh;
+	font-family: 'helvetica-light';
+	font-weight: 100;
+	color: black;
+	font-size: 0.7rem;
+}
+
+
+
+
+/* Media queries */
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+	html {
+		--video-width: 430px;
+	}
+	.slide {
+		width: 500px;
+	}
+	.mappa {
+		width: 400px;
+	}
+	.intro {
+		font-size: 0.9rem;
+		line-height: 1.9rem;
+		font-weight: 300rem;
+	}
+	.name {
+		font-size: 0rem;
+	}
+	.name2 {
+		font-size: 1.5rem;
+	}
+	.domanda {
+		font-size: 0.9rem;
+	}
+	.domandap {
+		font-size: 0.9rem;
+	}
+	.sub {
+		font-size: 0.7rem;
+	}
+	.capitolo {
+		font-size: 0.9rem;
+	}
+	.risposta {
+		font-size: 0.9rem;
+		line-height: 1.7rem;
+	}
+	.rispostaDown {
+		font-size: 0.9rem;
+		line-height: 1.7rem;
+	}
+	.rispostain {
+		font-size: 0.9rem;
+		line-height: 1.7rem;
+	}
+	.par1 {
+		font-size: 0.7rem;
+	}
+	.par2 {
+		font-size: 0.7rem;
+	}
+	.par3 {
+		font-size: 0.7rem;
+	}
+	.specific {
+		font-size: 0.7rem;
+	}
+
+	.doc {
+		font-size: 0.8rem;
+		line-height: 1.5rem;
+	}
+	.doc2 {
+		font-size: 0.8rem;
+		line-height: 1.5rem;
+	}
+	.info {
+		font-size: 0.4rem;
+	}
+	.info0 {
+		font-size: 0.4rem;
+	}
+	.info1 {
+		font-size: 0.4rem;
+	}
+	.info2 {
+		font-size: 0.4rem;
+	}
+	.info3 {
+		font-size: 0.4rem;
+	}
+	.infoP {
+		font-size: 0.4rem;
+	}
+	.infoP2 {
+		font-size: 0.4rem;
+	}
+
+
+	#link_appearance_nav {
+		padding-right: 10vh;
+	}
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+	html {
+		--video-width: 340px;
+	}
+	.slide {
+		width: 700px;
+	}
+	.mappa {
+		width: 500px;
+	}
+	.name {
+		font-size: 0rem;
+	}
+	.name2 {
+		font-size: 1.7rem;
+	}
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {
+	html {
+		--video-width: 470px;
+	}
+	.footer_img {
+		width: 200px;
+		height: auto;
+	}
+	.name {
+		font-size: 1.5rem;
+	}
+	.name2 {
+		font-size: 0rem;
+	}
+	.intro {
+		font-size: 1rem;
+		line-height: 2rem;
+		font-weight: 300;
+	}
+	.domanda {
+		font-size: 1.1rem;
+	}
+	.domandap {
+		font-size: 1.1rem;
+	}
+	.sub {
+		font-size: 0.9rem;
+	}
+	.capitolo {
+		font-size: 1rem;
+	}
+	.risposta {
+		font-size: 1rem;
+		line-height: 2rem;
+	}
+	.rispostaDown {
+		font-size: 1rem;
+		line-height: 2rem;
+	}
+	.rispostain {
+		font-size: 1rem;
+		line-height: 2rem;
+	}
+	.par1 {
+		font-size: 0.9rem;
+	}
+	.par2 {
+		font-size: 0.9rem;
+	}
+	.par3 {
+		font-size: 0.9rem;
+	}
+	.specific {
+		font-size: 0.9rem;
+	}
+
+	.doc {
+		font-size: 0.9rem;
+		line-height: 1.8rem;
+	}
+	.doc2 {
+		font-size: 0.9rem;
+		line-height: 1.8rem;
+	}
+	.info {
+		font-size: 0.7rem;
+	}
+	.info1 {
+		font-size: 0.7rem;
+	}
+	.info0 {
+		font-size: 0.7rem;
+	}
+	.info2 {
+		font-size: 0.7rem;
+	}
+	.info3 {
+		font-size: 0.7rem;
+	}
+	.infoP {
+		font-size: 0.7rem;
+	}
+	.infoP2 {
+		font-size: 0.7rem;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+	html {
+		--video-width: 470px;
+	}
+	.name {
+		font-size: 2rem;
+	}
+	.name2 {
+		font-size: 0rem;
+	}
+}
+
+@media (min-width: 1400px) {
+	html {
+		--video-width: 670px;
+	}
+	.name {
+		font-size: 2rem;
+	}
+	.name2 {
+		font-size: 0rem;
+	}
+}

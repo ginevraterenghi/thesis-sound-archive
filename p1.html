@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>data\sonification project:</title>
+
+	<!-- fav icon link -->
+	<link rel="shortcut icon" type="image/png" href="assets/fav.png" />
+
+	<!-- fonts link -->
+	<link href="https://fonts.googleapis.com/css?family=Chivo:100,300,400,700,900" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,400i,500,600,700,900" rel="stylesheet">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- Your CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+<body>
+
+	<header class="container navbar fixed-top navbar-expand-md">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+		<a class="name" href="index.html">sonifying cyber-attacks in water plants</a>
+		<div class="name2" href="presentation.html">s-c-a-w-p</div>
+		<div class="collapse navbar-collapse justify-content-end" id="navbar">
+			<a class="ciccio" href="p1.html">I PROTOTYPE</a>
+			<a class="slim" href="p2.html">II PROTOTYPE</a>
+			<a class="slim" href="p3.html">III PROTOTYPE</a>
+		</div>
+	</header>
+
+	<main class="container col-md-7">
+
+		<div class="domanda impo">FIRST PROTOTYPE</div>
+
+		<div class="intro">
+			Sonifications are built on two different layers. At the first level, which stays at the background of the sonification, a different sound was chosen to represent each network’s component: tanks, pumps, valves and junctions. The second layer is built upon punctual sounds, one for each variable associated with the component, i.e., water level for tanks, pressure and flow for valves and pumps, and so on. The order in which sounds are played follows the geographic position of the components, reading the network’s map from left to right. A pre-determined level of anomaly (low/medium/high) is associated to a distortion rate in each variable’s sound. This Prototype includes two options designed using different sound content over the same mapping strategy.
+		</div>
+		<img class="mappa" src="./assets/p1/p1-map.png">
+
+		<div class="domanda impo">OPTION [1]</div>
+
+		<div id="unoa">
+
+			<div class="domanda importante">Sonification</div>
+			<div class="district">
+				<figure>
+					<audio controls src="./assets/p1/o1/Scenario02.wav">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+
+
+			<div class="domanda importante">Sound-key</div>
+			<div class="red">Background sound for network components:</div>
+			<div class="district">
+				<figure>
+					<figcaption>TANK</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Components/Tank_EQ.wav">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>PUMP</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Components/Pump_EQ.wav">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>VALVE</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Components/Valve_EQ.wav">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>JUNCTION</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Components/Pressure_EQ.wav">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+
+			</div>
+
+			<div class="red">Individual sounds for components' variable, with different levels of anomaly:</div>
+			<div class="district">
+				<div class="red">TANK STATUS:</div>
+				<figure>
+					<figcaption>no anomaly</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Tank_Data/Tank_NoAnomaly.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>[low] anomaly level</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Tank_Data/Tank_Anomaly_UnLevel01.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>[medium] anomaly level</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Tank_Data/Tank_Anomaly_UnLevel02.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>[high] anomaly level</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Tank_Data/Tank_Anomaly_UnLevel03.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+
+
+
+			<div class="district">
+				<div class="red">PUMP STATUS:</div>
+				<figure>
+					<figcaption>no anomaly</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Pump_Data/Pump_NoAnomaly.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>[low] anomaly level</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Pump_Data/Pump_Anomaly_UnLevel01.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>[medium] anomaly level</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Pump_Data/Pump_Anomaly_UnLevel02.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figcaption>[high] anomaly level</figcaption>
+				<figure>
+					<audio controls src="./assets/p1/o1/Legenda/Pump_Data/Pump_Anomaly_UnLevel03.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+
+			</div>
+
+
+			<div class="district">
+				<div class="red">VALVE STATUS:</div>
+				<figure>
+					<figcaption>no anomaly</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Valve_Data/Valve_NoAnomalies.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>[low] anomaly level</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Valve_Data/Valve_Anomaly_UnLevel01.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>[medium] anomaly level</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Valve_Data/Valve_Anomaly_UnLevel02.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figcaption>[high] anomaly level</figcaption>
+				<figure>
+					<audio controls src="./assets/p1/o1/Legenda/Valve_Data/Valve_Anomaly_UnLevel03.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+
+			</div>
+
+
+			<div class="district">
+				<div class="red">JUNCTION STATUS:</div>
+				<figure>
+					<figcaption>no anomaly</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Pressure_Data/Pressure-NoAnomalies.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>[low] anomaly level</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Pressure_Data/Pressure_Anomaly_UnLevel01.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>[medium] anomaly level</figcaption>
+					<audio controls src="./assets/p1/o1/Legenda/Pressure_Data/Pressure_Anomaly_UnLevel02.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figcaption>[high] anomaly level</figcaption>
+				<figure>
+					<audio controls src="./assets/p1/o1/Legenda/Pressure_Data/Pressure_Anomaly_UnLevel03.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+
+			</div>
+
+
+		</div>
+
+
+		<div class="domanda impo">OPTION [2]</div>
+
+		<div id="unoa">
+
+			<div class="domanda importante">Sonification</div>
+			<div class="district">
+				<figure>
+					<audio controls src="./assets/p1/o2/Scenario01.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+			</div>
+
+
+			<div class="domanda importante">Sound-key</div>
+			<div class="red">Background sound for network components:</div>
+			<div class="district">
+				<figure>
+					<figcaption>TANK</figcaption>
+					<audio controls src="./assets/p1/o2/Legenda/tank.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>PUMP</figcaption>
+					<audio controls src="./assets/p1/o2/Legenda/pump.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>VALVE</figcaption>
+					<audio controls src="./assets/p1/o2/Legenda/valve.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+
+			</div>
+
+			<div class="red">Individual sounds components' variable:</div>
+			<div class="district">
+				<figure>
+					<figcaption>Water level</figcaption>
+					<audio controls src="./assets/p1/o2/Legenda/LEVEL-unvaried.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>State</figcaption>
+					<audio controls src="./assets/p1/o2/Legenda/STATE-unvaried.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+				<figure>
+					<figcaption>Flow</figcaption>
+					<audio controls src="./assets/p1/o2/Legenda/FLOW-unvaried.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+				</figure>
+
+	</div>
+			
+	<div class="red">Different level of noise for anomaly:</div>
+				<div class="district">
+					<figure>
+						<figcaption>[low] anomaly level</figcaption>
+						<audio controls src="./assets/p1/o2/Legenda/level-1.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+					</figure>
+					<figure>
+						<figcaption>[medium] anomaly level</figcaption>
+						<audio controls src="./assets/p1/o2/Legenda/level-2.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+					</figure>
+					<figure>
+						<figcaption>[high] anomaly level</figcaption>
+						<audio controls src="./assets/p1/o2/Legenda/level-3.mp3">
+            			Your browser does not support the
+						<code>audio</code> element.
+    				</audio>
+					</figure>
+
+
+			
+
+
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+	</main>
+
+
+<footer id="fondo">
+		<div class="container">
+			<div class="row fondo justify-content-center">
+
+				<div class="col-3">
+					<div class="info">
+						Project:
+					</div>
+					<div class="info0">
+						Sonifying cyber-attacks in water plants
+					</div>
+			
+				</div>
+
+				<div class="col-6">
+					<div class="info">
+						Paper:
+					</div>
+					<div class="info0">
+						UNDERSTANDING CYBER-ATTACKS ON WATER SUPPLY SYSTEMS
+					</div>
+					
+				</div>
+				<div class="col-3">
+					<div class="info">
+						Conference:
+					</div>
+					<div class="info0">
+						ICAD 2019
+					</div>
+				</div>
+				
+				
+
+
+
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
