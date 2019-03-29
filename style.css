@@ -268,6 +268,13 @@ figcaption {
 	font-size: 1rem;
 }
 
+.tesi {
+	margin-top: 2vh;
+	font-family: 'ciu-regular';
+	color: #68246c;
+	font-size: 1.2rem;
+}
+
 .domandap {
 	margin-top: 5vh;
 	font-family: 'ciu-regular';
