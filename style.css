@@ -40,7 +40,7 @@ main {
 
 @font-face {
 	font-family: helvetica-light;
-	src: url(./assets/font/helvetica-light.ttf);
+	src: url(./assets/font/helvetica.ttf);
 }
 
 
@@ -133,7 +133,7 @@ main {
 .intro2 {
 	font-family: 'helvetica-light';
 	font-size: 0.9rem;
-	padding-top: 7vh;
+	padding-top: 4vh;
 	padding-bottom: 2vh;
 	text-align: left;
 	line-height: 1.4rem;
